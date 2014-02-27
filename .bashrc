@@ -108,10 +108,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias sfcpanm='cpanm --mirror http://devdb:25123 --mirror-only -l /home/jshaev/perl5'
 alias plack='plackup -p 4031 --workers 3 -s Starman'
 alias dzil='~/perl5/bin/dzil'
-alias tidy='~/tidy4aug00/tidy'
 
 alias ack='~/bin/ack'
 
