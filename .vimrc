@@ -21,12 +21,20 @@ highlight SyntasticErrorLine guibg=#FF0000
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set showmatch
+set hlsearch
+set incsearch
+set title
+set undolevels=1000
 
 set iskeyword-=_
 
 set nobackup
 set nowritebackup
 set noswapfile
+
+" Use ; instead of : to enter commands
+nnoremap ; :
 
 autocmd FileType perl set equalprg=perltidy
 autocmd FileType javascript set equalprg=js_beautify.pl\ -
