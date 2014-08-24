@@ -33,6 +33,8 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+set complete-=i
+
 " Use ; instead of : to enter commands
 nnoremap ; :
 
