@@ -108,7 +108,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias plack='plackup -p 4031 --workers 3 -s Starman'
+
 alias dzil='~/perl5/bin/dzil'
 
 alias ack='~/bin/ack'
